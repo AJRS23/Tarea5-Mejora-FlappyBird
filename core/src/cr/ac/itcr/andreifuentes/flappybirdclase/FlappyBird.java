@@ -135,9 +135,9 @@ public class FlappyBird extends ApplicationAdapter {
 
 		// no iniciado
 		if (game_state == 0){
-			batch.draw(easy, Gdx.graphics.getWidth()/2 - easy.getWidth()/2, (Gdx.graphics.getHeight()/2 - easy.getHeight()/2)+350);
+			batch.draw(easy, Gdx.graphics.getWidth()/2 - easy.getWidth()/2, (Gdx.graphics.getHeight()/2 - easy.getHeight()/2)+400);
 
-			batch.draw(difficult, Gdx.graphics.getWidth()/2 - difficult.getWidth()/2, (Gdx.graphics.getHeight()/2 - difficult.getHeight()/2)-350);
+			batch.draw(difficult, Gdx.graphics.getWidth()/2 - difficult.getWidth()/2, (Gdx.graphics.getHeight()/2 - difficult.getHeight()/2)-400);
 
 			if (Gdx.input.justTouched()) {
 				if (Gdx.input.getY() < Gdx.graphics.getHeight() / 2){
